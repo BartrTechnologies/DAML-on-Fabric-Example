@@ -1,0 +1,15 @@
+sdk-version: 1.4.0
+name: value
+source: daml
+#init-script: Setup:initialize
+parties:
+   - Alice
+   - Bob
+   - CBanker
+version: 0.0.1
+dependencies:
+   - daml-prim
+   - daml-stdlib
+   - daml-script
+sandbox-options:
+   - --wall-clock-time
